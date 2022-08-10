@@ -1,0 +1,60 @@
+.music-playlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-and-song-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.music-image {
+  width: 200px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.song-name-genre-container {
+  margin-left: 20px;
+}
+
+.song-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.genre {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.duration-and-delete-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.song-duration {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
